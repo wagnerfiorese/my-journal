@@ -1,0 +1,139 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.header {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: flex-start;
+  width: 550px;
+  height: 55px;
+}
+
+.header .world {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  width: 24px;
+  height: 24px;
+  margin-left: 185px;
+}
+
+.header .text {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 14.46px;
+  line-height: 17.5px;
+  letter-spacing: -7.5%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.cards .img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.cards .info {
+  width: 300px;
+  height: 140px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.cards .pointer {
+  display: flex;
+  width: 12px;
+  height: 10px;
+}
+
+.cards .location {
+  display: flex;
+  justify-content: flex-start;
+  width: 40px;
+  height: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+  margin-left: 17px;
+  margin-top: -10px;
+}
+
+.cards .map {
+  display: flex;
+  width: 106px;
+  height: 13px;
+  left: 247px;
+  top: 119px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+  margin-left: 63px;
+  margin-top: -10px;
+}
+
+.cards .title {
+  width: 250px;
+  height: 140px;
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  margin-top: 6px;
+}
+
+.cards .date {
+  width: 319px;
+  height: 11px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2b283a;
+  margin-top: -10px;
+}
+
+.cards .description {
+  display: flex;
+  width: 276px;
+  height: 45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+  margin-top: -10px;
+}
